@@ -13,7 +13,7 @@ public class HomeController {
 	
 	@GetMapping("/message")
 	public String message(){
-		return "Message.........";
+		return "Hi Learner, Welcome to DevopsDemo Lab. This is testing message";
 	}
 
 }
